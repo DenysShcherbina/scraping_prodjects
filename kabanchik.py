@@ -50,7 +50,7 @@ class Parse:
         return name_dir
 
     def get_data_from_site(self):
-        for data in self.result_dicts[7:8]:
+        for data in self.result_dicts:
             print(f'### Starting collect data at page {self.count} / {len(self.result_dicts)}')
             self.count += 1
 
